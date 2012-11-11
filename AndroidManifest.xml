@@ -19,13 +19,20 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:pluto="http://www.w3.org/2001/pluto.html"
     package="com.tmobile.theme.AluminumBP"
-    android:versionCode="5"
-    android:versionName="1.0.5.1"
+    android:versionCode="6"
+    android:versionName="1.0.6.0"
     android:installLocation="internalOnly"
     android:hasCode="false">
 
     <!-- Make sure this theme APK only shows up on appropriate devices. -->
     <uses-feature android:name="com.tmobile.software.themes" />
+
+    <application android:label="@string/theme_name"
+        android:icon="@drawable/icon"/>
+
+    <activity 
+        android:label="@string/theme_name"
+        android:name="com.tmobile.theme.Foo" />
 
     <theme
         pluto:themeId="AluminumBP"
