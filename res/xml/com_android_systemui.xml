@@ -17,7 +17,7 @@
  -->
 
 <resource-redirections>
-    <!-- AluminumBP style etc.. -->
+    <!-- Aluminum style etc.. -->
     <item name="color/bar_recents_app_label_color">@color/systemui_bar_recents_app_label_color</item>
     <item name="color/notification_list_shadow_top">@color/systemui_notification_list_shadow_top</item>
     <item name="drawable/notification_row_bg">@drawable/notification_row_bg</item>
@@ -30,13 +30,27 @@
     <item name="drawable/status_bar_recents_app_thumbnail_background">@drawable/status_bar_recents_app_thumbnail_background</item>
     <item name="drawable/status_bar_recents_background_solid">@drawable/status_bar_recents_background_solid</item>
     <item name="drawable/ticker_background_color">@drawable/ticker_background_color</item>
+
     <item name="style/TextAppearance.StatusBar.Clock">@style/TextAppearance.StatusBar.Clock</item>
     <item name="style/TextAppearance.StatusBar.IntruderAlert">@style/TextAppearance.StatusBar.IntruderAlert</item>
     <item name="style/TextAppearance.StatusBar.PhoneTicker">@style/TextAppearance.StatusBar.PhoneTicker</item>
     <item name="style/TextAppearance.StatusBar.SystemPanel">@style/TextAppearance.StatusBar.SystemPanel</item>
     <item name="style/TextAppearance.StatusBar.TextButton">@style/TextAppearance.StatusBar.TextButton</item>
 
-    <!-- AluminumBP update CM10/AOKP-JB -->
+    <item name="style/TextAppearance.Holo.Light.Inverse">@style/TextAppearance.Holo.Light.Inverse</item>
+    <item name="style/TextAppearance.Inverse">@style/TextAppearance.Inverse</item>
+    <item name="style/TextAppearance.StatusBar.EventContent.Info">@style/TextAppearance.StatusBar.EventContent.Info</item>
+    <item name="style/TextAppearance.StatusBar.EventContent.Line2">@style/TextAppearance.StatusBar.EventContent.Line2</item>
+    <item name="style/TextAppearance.StatusBar.EventContent">@style/TextAppearance.StatusBar.EventContent</item>
+    <item name="style/TextAppearance.StatusBar.EventContent.Time">@style/TextAppearance.StatusBar.EventContent.Time</item>
+    <item name="style/TextAppearance.StatusBar.EventContent.Title">@style/TextAppearance.StatusBar.EventContent.Title</item>
+    <item name="style/TextAppearance.StatusBar">@style/TextAppearance.StatusBar</item>
+    <item name="style/TextAppearance.StatusBar.Ticker">@style/TextAppearance.StatusBar.Ticker</item>
+    <item name="style/TextAppearance.StatusBar.Title">@style/TextAppearance.StatusBar.Title</item>
+    <item name="style/TextAppearance.Widget.DropDownHint">@style/TextAppearance.Widget.DropDownHint</item>
+    <item name="style/TextAppearance.Widget.DropDownItem">@style/Theme.Holo.Light.DarkActionBar</item>
+
+    <!-- Aluminum update CM10/AOKP-JB -->
     <item name="drawable/nav_bar_bg">@drawable/com_android_systemui_nav_bar_bg</item>
     <item name="drawable/navigationbar_background">@drawable/com_android_systemui_navigationbar_background</item>
     <item name="drawable/navigationbar_background_land">@drawable/com_android_systemui_navigationbar_background_land</item>
@@ -47,10 +61,10 @@
     <item name="drawable/notification_panel_bg">@drawable/com_android_systemui_notification_panel_bg</item>
     <item name="drawable/notification_tracking_bg">@drawable/com_android_systemui_notification_tracking_bg</item>
 
-    <!-- AluminumBP notification pressed color -->
+    <!-- Aluminum notification pressed color -->
     <item name="drawable/notification_item_background_color_pressed">@color/aluminum_main</item>
 
-    <!-- AluminumBP battery dep. -->
+    <!-- Aluminum battery dep. -->
     <item name="drawable/stat_sys_battery">@drawable/stat_sys_battery</item>
     <item name="drawable/stat_sys_battery_charge">@drawable/stat_sys_battery_charge</item>
     <item name="drawable/zzz_stat_sys_battery_1">@drawable/zzz_stat_sys_battery_1</item>
@@ -452,4 +466,4 @@
     <item name="drawable/toggle_wifi_ap_off">@drawable/com_android_systemui_toggle_wifi_ap_off</item>
     <item name="drawable/toggle_wifi">@drawable/com_android_systemui_toggle_wifi</item>
     <item name="drawable/toggle_wifi_off">@drawable/com_android_systemui_toggle_wifi_off</item>
-</resource-redirections> 
+</resource-redirections>
